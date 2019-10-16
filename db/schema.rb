@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2019_10_16_085612) do
     t.string "nickname"
     t.string "image"
     t.string "email"
-    t.text "tokens"
+    t.json "tokens"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "sign_in_count"
